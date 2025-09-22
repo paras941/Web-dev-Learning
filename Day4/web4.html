@@ -1,0 +1,107 @@
+<!-- this is the HTML tutuorial -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRACTICE OF THE HTML</title>
+</head>
+
+<style>
+
+</style>
+
+<body>
+
+  <!--  FORMS -->
+  <h1 class="all">FORMS</h1>
+  <form action=""></form>
+  <input type="text" name="username" placeholder="Enter your username">
+
+  <input type="password" name="password" placeholder="Enter your password">
+
+  <div class="option">
+    <input type="radio" id="male" name="gender" value="male">
+
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for=" female">female</label>
+  </div>
+
+  <div class="sub">
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+
+    <label for="subscribe">Subscribe to newsletter</label>
+  </div>
+
+  <div class="submit">
+    <textarea name="comment" rows="4" cols="50">Enter your comment here...</textarea>
+    <select name="fruits">
+      <option value="apple">Apple</option>
+      <option value="banana">Banana</option>
+      <option value="cherry">Cherry</option>
+    </select>
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+
+  <!--  VIDEO TAG  -->
+  <!-- <video src  ="video1.mp4" height="345px" width=" 445px"   controls > This is a video tag </video> -->
+  <div class="video">
+    <h1>VIDEO TAG</h1>
+    <video width="600" height="400" controls>
+      <source src="video1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+  </div>
+
+
+  <!-- SVG TAG  -->
+  <style>
+    .my-circle {
+      fill: green;
+      stroke: black;
+      stroke-width: 2;
+
+    }
+
+    .rectangle {
+      fill: red;
+
+    }
+
+    .polygon {
+      fill: blue;
+      position: fixed;
+    }
+  </style>
+
+  <h1 class="class">USING SVG TAG</h1>
+  <div class="svg">
+    <svg width="300" height="200">
+      <circle cx="100" cy="100" r="80" class="my-circle" />
+    </svg>
+  </div>
+
+  <div class="svg">
+   
+    <svg width="300" height=" 200">
+      <rect x="10" y="10" width="80" height="50" class=" rectangle" />
+      <polygon points="50,0 100,100 0,100" class=" polygon" />
+
+    </svg>
+  </div>
+
+
+  <!-- FRAMES 
+
+<iframe src="practice.html" width="345px" height="height" ></iframe>
+ -->
+
+
+</body>
+
+</html>

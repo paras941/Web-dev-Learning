@@ -1,0 +1,212 @@
+<!--  THIS IS THE CSS TUTORIAL  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TUTORIAL</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        /*  THIS IS THE BOX MODEL */
+
+        .class {
+            color: red;
+            text-align: center;
+            border: solid black 10px;
+            background-color: rgb(104, 95, 147);
+            height: 225px;
+            width: 227px;
+            padding: 12px;
+        }
+
+        /*  THIS IS THE FOR THE STYLING OF THE LISTS  */
+        .ul1 {
+            list-style-type:lower-alpha;
+            list-style-position: inside;
+            border : 4px solid black;
+        
+        }
+
+        .ol1 {
+            list-style: upper-alpha;
+            list-style-position: outside;
+            border : 4px solid black;
+        
+        }
+
+        .ol2 {
+            list-style-type: "😊";
+            border : 4px solid black;
+        
+        }
+
+
+        /* THIS IS THE STYLING OF THE  */
+        .background {
+            color: red;
+            background-repeat: repeat;
+            background-attachment: scroll;
+            background-color: aquamarine;
+            background-position: top right;
+            margin-bottom: 20px;
+        }
+
+
+        /* THIS IS THE FOR THE STYLING OF THE BORDERS */
+
+        .border {
+            background-color: blueviolet;
+            border-style: dashed;
+            border-width: 3px;
+            border-radius: 6px;
+             margin-bottom: 20px;
+
+        }
+
+        table {
+            border: 2px solid;
+            border-collapse: collapse;
+            border-collapse: separate;
+             margin-bottom: 20px;
+        }
+
+        /* THIS IS THE FOR THE IMAGE */
+
+        img {
+            opacity: 7px;
+            filter: blur(2px);
+            filter: grayscale(100);
+            filter: brightness(1);
+             margin-bottom: 20px;
+        }
+
+        /* THIS IS FOR THE STYLING OF THE FONTS */
+
+        /* TYPES OF THE FONTS
+         small
+         LARGE
+         MEDIUM
+         BIG
+         px,em,rem; */
+
+        /* ITALIC, NORMAL, OBLIQUE */
+
+        /* font-weight:lighter,200,bold */
+
+        .fonts {
+            font-weight: bold;
+          /* THIS IS FOR THE STYLING OF THE TEXTS */
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 2px ;
+        }
+
+        /*  THIS IS THE HOVER PROPERTY */
+        .hover {
+            border: 6px solid lightgreen;
+            font-weight: bold;
+            color: aqua;
+
+        }
+
+        .hover:hover {
+            border: 6px dashed purple;
+            font-weight: 200;
+            color: black;
+        }
+
+        .paras {
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .all{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="all"># BOX MODEL</h1>
+    <div class="class"> THIS IS BOX MODEL </div>
+
+    <h1 class="all"># Types of lists</h1>
+    <ul class="ul1">I AM A UNORDERED LIST
+        <li>Fruits</li>
+        <li>Orange</li>
+        <li>Apple</li>
+    </ul>
+    <ol class="ol1"> I AM ORDERED LIST
+        <li>vegetables</li>
+        <li>Onion</li>
+        <li>Tomato</li>
+        <li>Potatoe</li>
+    </ol>
+    <ol class="ol2">
+        <li>EMOJIS</li>
+        <li>EMOJIS</li>
+        <li>EMOJIS</li>
+        <li>EMOJIS</li>
+    </ol>
+    <div>
+
+        <h1 class="all"> # BACKGROUND</h1>
+        <div class="background">
+            paras
+        </div>
+
+
+
+        <h1 class="all"># BORDER DESIGN</h1>
+        <div class="border">
+            I AM A BORDER
+        </div>
+
+        <h1 class="all">#TABLES DESIGN</h1>
+        <table>
+            <tr>
+                <th>name</th>
+                <th>branch</th>
+                <th>rollnumber</th>
+            </tr>
+
+            <tr>
+                <td>paras rawat</td>
+                <td>Btech IT</td>
+                <td>2320565</td>
+            </tr>
+        </table>
+
+        <h1 class="all">IMAGE</h1>
+        <img src="https://tse2.mm.bing.net/th/id/OIP.IrUBHhdMo6wWLFueKNreRwHaHa?pid=Api&amp;P=0&amp;h=180"
+            alt="image of a person ">
+
+            <h1 class="all"># FONTS</h1>
+        <div class="fonts">
+            <P>;Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste laudantium pariatur recusandae omnis, sit odio doloremque temporibus sed error explicabo numquam consequuntur deserunt alias perspiciatis totam corrupti, optio incidunt soluta! Quibusdam possimus, fuga ex expedita sed aliquid voluptates. Aperiam cumque nostrum dolores pariatur exercitationem impedit!Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatum ex illum, dolorum molestiae
+                ratione aspernatur earum maxime vel sapiente, dolore nihil vitae.</p>
+        </div>
+        <h1 class="all"># HOVER PROPERTY</h1>
+        <div class="hover">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio beatae magni quaerat eligendi perferendis
+            magnam quas accusamus voluptatum quo blanditiis unde et velit maiores qui, aliquam modi, inventore maxime
+            sunt quidem animi minima nam.
+        </div>
+        <div class="paras">loream45
+            ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatum ex illum, dolorum molestiae ratione
+            aspernatur earum maxime vel sapiente, dolore nihil vitae.
+        </div>
+
+
+
+
+
+
+</body>
+
+</html>

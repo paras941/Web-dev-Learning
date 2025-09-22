@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMATION</title>
+    <style>
+
+        *{
+            background-color: black;
+        }
+
+        h1{
+            color: white;
+        }
+
+       
+        .ani{
+            background-color: red;
+            height:100px;
+            width:100px;
+            animation-name: demo;
+            animation-duration: 8s;
+            box-shadow: 5px 5px 5px 5px ;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-fill-mode: forwards;
+        }
+
+         .demo{
+             height: 100px;
+             width: 100px;
+             background-color: green;
+             margin-top: 68px;
+             border-radius: 60px;
+             position: relative;
+             animation: class;
+             animation-duration: 4s;
+             animation-iteration-count: 1;
+             animation-timing-function: ease-in-out;
+             animation-delay: 2s;
+             animation-fill-mode: backwards;
+        }
+
+        @keyframes class {
+            from{
+                top: 60px;
+                left: 0px;
+                box-shadow: 5px 5px 2px black ;
+
+            }
+            to{
+                top: 60px;
+                left: 1300px;
+
+            }
+        }
+        @keyframes demo{
+            0%{
+                background-color:palegreen;
+                height: 100px;
+                width : 100px;
+                 /* position: relative; */
+                 /* bottom: 45px; */
+                 box-shadow: 5px 5px 3px ;
+
+            }
+            25%{
+                background-color: yellow;
+                 height: 150px;
+                width : 150px;
+                /* top: 56px; */
+                box-shadow: 5px 5px 6px ;
+
+            }
+            50%{
+                background-color: wheat;
+                 height: 200px;
+                width : 200px;
+                box-shadow: 5px 5px 10px ;
+
+            }
+            100%{
+                background-color: lightblue;
+                 height: 250px;
+                width : 250px;
+                box-shadow: 5px 5px 12px ;
+
+            }
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>ANIMATIONS TUTORIALS</h1>
+    <h1 class="class">ANIMATIONS</h1>
+    <div class="ani"></div>
+    <div class="demo"></div>
+</body>
+</html>

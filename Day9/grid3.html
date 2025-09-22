@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(37, 119, 146);
+
+        }
+
+        .container {
+            /* background-color: darkblue; */
+            height: 80%;
+            width: 80%;
+            display: grid;
+            gap: 1rem;
+            grid-template-rows: repeat(4, 1fr);
+            grid-template-columns: repeat(3, 1fr);
+
+        }
+
+        .items {
+            /* height: 30px;
+            width: 47px; */
+            font-size: 25px;
+            font-weight: bold;
+            border: 5px solid black;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .header {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background-color: green;
+        }
+
+        .footer {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background-color: green;
+        }
+
+        .sidebar {
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-color: green;
+        }
+
+        .colums {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="items header">Introduction</div>
+        <div class="items sidebar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque modi quia aperiam
+            neque a. Commodi sint nostrum tempore neque delectus. Eligendi quod optio illo fugiat incidunt laboriosam
+            distinctio repudiandae labore. Soluta magni unde libero.</div>
+        <div class="items colums">DATA TYPES </div>
+        <div class="items">boolean
+            char,
+            byte,
+            short,
+            int,
+            long,
+            float,
+            double etc
+        </div>
+        <div class="items"> Array, Linked list</div>
+        <div class="items footer">outro</div>
+    </div>
+</body>
+
+</html>
