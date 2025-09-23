@@ -1,59 +1,59 @@
-📘 Web-Dev-Learning-journey 
+🌐 WEB-DEV-LEARNING
 
-This repository contains resources, notes, and  to learn HTML & CSS from scratch.
-The goal is to build a strong foundation in web development and create responsive, modern websites.
+This repository contains resources, notes, and practice projects to learn HTML & CSS.
+It covers everything from basics to advanced topics along with hands-on projects.
 
-🚀 Topics Covered
-🔹 HTML (HyperText Markup Language)
+📘 HTML Topics
 
-HTML Basics & Structure (<!DOCTYPE html>, <html>, <head>, <body>)
+Introduction to HTML & page structure
 
-Headings, Paragraphs, Line breaks, Horizontal lines
+Headings, Paragraphs, Line breaks
 
-Text formatting tags (<b>, <i>, <u>, <mark>, <sup>, <sub>)
+Text formatting (bold, italic, underline, highlight, code, sup, sub)
 
-Links & Images (<a>, <img>)
+Links & Images (absolute, relative, alt text)
 
-Tables (<table>, <tr>, <th>, <td>, rowspan, colspan)
+Lists (ordered, unordered, nested)
 
-Forms (inputs, labels, checkboxes, radio, select, textarea, submit)
+Tables (rows, columns, rowspan, colspan)
 
-Semantic HTML (<header>, <footer>, <section>, <article>, <aside>, <nav>)
+Forms (inputs, labels, checkboxes, radio, dropdowns, textarea, buttons)
 
-Multimedia (<audio>, <video>, <iframe>)
+Semantic HTML (header, footer, section, article, nav)
 
-🔹 CSS (Cascading Style Sheets)
+Multimedia (audio, video, iframe)
 
-Introduction to CSS (Inline, Internal, External)
+🎨 CSS Topics
 
-CSS Syntax (Selectors, Properties, Values)
+Introduction to CSS (inline, internal, external)
 
 Colors (names, HEX, RGB, HSL)
 
-Backgrounds (color, image, repeat, position, gradient)
+Backgrounds (color, image, gradient)
 
-Text styling (fonts, alignment, spacing, Google Fonts)
+Text styling (fonts, size, weight, alignment, spacing, Google Fonts)
 
-Box Model (margin, padding, border, content)
+Box Model (margin, padding, border, content, box-sizing)
 
-CSS Selectors (element, class, id, pseudo-classes, pseudo-elements)
+Selectors (element, class, id, grouping, pseudo-classes, pseudo-elements)
 
 Display & Positioning (block, inline, flex, grid, absolute, relative, sticky, fixed)
 
 Flexbox (layout, alignment, wrapping)
 
-CSS Grid (rows, columns, gap, responsive layouts)
+Grid (rows, columns, gap, templates, areas)
 
-Units & Measurements (px, %, em, rem, vw, vh)
+Units (px, %, em, rem, vh, vw)
 
-CSS Variables (--var)
+Variables (--var)
 
 Transitions & Animations (:hover, @keyframes)
 
-Media Queries (responsive design)
-
 Shadows & Gradients (box-shadow, text-shadow, linear & radial gradient)
+
+Media Queries (responsive design)
 
 Styling Forms & Buttons
 
 Advanced Selectors (child, sibling, attribute)
+
