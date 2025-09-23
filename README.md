@@ -14,8 +14,6 @@ Text formatting tags (<b>, <i>, <u>, <mark>, <sup>, <sub>)
 
 Links & Images (<a>, <img>)
 
-Lists (<ul>, <ol>, <li>)
-
 Tables (<table>, <tr>, <th>, <td>, rowspan, colspan)
 
 Forms (inputs, labels, checkboxes, radio, select, textarea, submit)
