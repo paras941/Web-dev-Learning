@@ -37,7 +37,8 @@ let y ="paras Rawat";  // this is a string data type
 console.log(x)
 console.log(y)
 
+let num = 5;
+num =" paras"
+console.log(num)
 
-
-
-
+// camelcase = SumOfArray
