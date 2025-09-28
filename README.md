@@ -61,5 +61,5 @@ Advanced Selectors (child, sibling, attribute)
 
 Data types and Variables
 
-Operators 
+Operators and conditional statements
 
