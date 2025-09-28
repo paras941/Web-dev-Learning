@@ -1,0 +1,39 @@
+       *{
+        background-color: lightblue;
+       }
+       
+       .flexbox{
+        position: relative;
+        left: 100px;
+        margin-top: 60px;
+        color: white;
+       }
+
+    
+        /* THIS IS THE PROPERTY OF THE FLEX BOX  */
+       .container{
+        background-color: antiquewhite;
+        height: 378px;
+        width: 456px;
+        display:flex;
+        justify-content: center; 
+         align-items: center;
+         flex-direction: row; 
+         flex-wrap: wrap;
+       }
+
+ 
+       div{
+        background-color: rgb(179, 48, 179) ;
+        font-size: large;
+        line-height: 78px;
+        text-align: center;
+        width: 100px;
+        height: 78px;
+        margin: 10px;
+       }
+       .hole{
+        background-color: palegoldenrod;
+
+       }
+

@@ -1,0 +1,35 @@
+.class{
+            border: 6px solid orchid;
+            height: 78px;
+            overflow: scroll;
+        }
+        img{
+            height: 178px;
+            float: inline-end;
+
+        }
+        .size{
+            border: 2px solid black;
+            background-color: rgb(150, 40, 150);
+            height: 10vh;
+            width: auto;
+        }
+        .position{
+            position: relative;
+            
+            img{
+                height: 177px;
+                position: sticky;
+            }
+            
+
+        }
+        .block{
+            border: 4px solid lightblue;
+            display: block;
+        }
+        .inline{
+            border: 2px solid violet;
+            display: inline;
+        }
+        

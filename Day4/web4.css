@@ -1,0 +1,27 @@
+
+    .my-circle {
+      fill: green;
+      stroke: black;
+      stroke-width: 2;
+
+    }
+
+    .rectangle {
+      fill: red;
+
+    }
+
+    .polygon {
+      fill: blue;
+      position: fixed;
+    }
+
+    .all{
+        background-color: antiquewhite;
+    }
+
+    h1{
+        background-color: antiquewhite;
+    }
+
+
