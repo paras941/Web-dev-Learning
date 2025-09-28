@@ -57,3 +57,9 @@ Styling Forms & Buttons
 
 Advanced Selectors (child, sibling, attribute)
 
+# Javascript 
+
+Data types and Variables
+
+Operators 
+
