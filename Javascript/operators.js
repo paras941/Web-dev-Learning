@@ -30,8 +30,8 @@ console.log("5" ===5)    // strict comparison
 // Ternery operator
 
 let age =13;
-let status =(age>18) ? "You can vote ": "You cannot Vote"
+let status1 =(age>18) ? "You can vote ": "You cannot Vote"
 
-console.log(status)
+console.log(status1)
 
  
