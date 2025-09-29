@@ -63,3 +63,5 @@ Data types and Variables
 
 Operators and conditional statements
 
+loops 
+
