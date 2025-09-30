@@ -1,3 +1,5 @@
+// Plain function
+
 //  Function defining 
 function saymyname(name){
     console.log(name)
@@ -16,7 +18,7 @@ function add(a , b){
 
 add(4,5)
 
-// Retrun value 
+// Return value 
 
 function addsum(c,d,e){
    let sum =c+d+e
