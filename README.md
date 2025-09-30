@@ -65,3 +65,7 @@ Operators and conditional statements
 
 loops 
 
+strings
+
+
+
