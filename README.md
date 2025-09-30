@@ -67,5 +67,7 @@ loops
 
 strings
 
+Plain and Arrow function
+
 
 
