@@ -33,14 +33,14 @@ person.age = 20;
 
 // // Constructor function
 
-function persons(Branch,Rollnumber){
+function Course(Branch,Rollnumber){
      this.Branch =Branch;
      this.Rollnumber=Rollnumber;
 }
 
 
-let p1 = new persons("Btech", 20);
-let p2 = new persons("B.com", 22);
+let p1 = new Course("Btech", 20);
+let p2 = new Course("B.com", 22);
 console.log(p1.Branch); 
 console.log(p1.Rollnumber); 
 
