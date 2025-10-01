@@ -90,4 +90,39 @@ Arrays
   
 Hoisting 
 
+Person Class Example (JavaScript)
+
+This project demonstrates JavaScript classes with public and private fields, a constructor, getters/setters, and methods.
+
+Class Definition
+
+class persons defines a blueprint for creating person objects.
+
+Properties
+
+Name → Public property (default "rohan")
+
+age → Public property (default 4)
+
+#ht → Private property (default "6ft") accessible only through getter/setter
+
+Constructor
+
+Accepts Branch, Rollnumber, and an optional list of Names.
+
+Initializes Branch and Rollnumber for each object.
+
+Logs the Names array when a new object is created.
+
+Getter & Setter
+
+get height() → Allows access to the private property #ht.
+
+set height(value) → Allows updating the private property #ht.
+
+Methods
+
+walking() → Logs "I am walking".
+
+Sleeping() → Logs "I am sleeping".
 
