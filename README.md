@@ -5,19 +5,19 @@ It covers everything from basics to advanced topics along with hands-on projects
 
 📘 HTML Topics
 
-📌 Page Structure
+1️⃣ Page Structure
 
 <!DOCTYPE html> → Defines the HTML version
 
 <html> → Root element
 
-<head> → Metadata, title, CSS/JS links
+<head> → Metadata, title, links to CSS/JS
 
-<body> → Visible content
+<body> → Visible page content
 
 Semantic elements: <header>, <footer>, <section>, <article>, <nav>
 
-📌 Headings & Text
+2️⃣ Headings & Paragraphs
 
 Headings: <h1> … <h6>
 
@@ -25,7 +25,23 @@ Paragraphs: <p>
 
 Line breaks: <br>
 
-📌 Links & Images
+3️⃣ Text Formatting
+
+Bold → <b> / <strong>
+
+Italic → <i> / <em>
+
+Underline → <u>
+
+Highlight → <mark>
+
+Code → <code>
+
+Superscript → <sup>
+
+Subscript → <sub>
+
+4️⃣ Links & Images
 
 Links: <a href="url">text</a>
 
@@ -33,41 +49,43 @@ Absolute vs Relative URLs
 
 Images: <img src="path" alt="description">
 
-📌 Lists
+5️⃣ Lists
 
-Ordered → <ol>
+Ordered List: <ol>
 
-Unordered → <ul>
+Unordered List: <ul>
 
-Nested → Lists inside lists
+Nested Lists: Lists inside lists
 
-📌 Tables
+6️⃣ Tables
 
-Table structure → <table> with <tr>, <td>, <th>
+Table structure: <table>
 
-Merge cells → rowspan, colspan
+Rows & Columns: <tr> + <td> + <th>
 
-📌 Forms
+Merge cells: rowspan, colspan
 
-Inputs → text, email, password, etc.
+7️⃣ Forms
 
-Labels → <label>
+Inputs: text, email, password
 
-Checkboxes & Radio → <input type="checkbox/radio">
+Labels: <label>
 
-Dropdown → <select> + <option>
+Checkboxes & Radio: <input type="checkbox/radio">
 
-Textarea → <textarea>
+Dropdown: <select> + <option>
 
-Buttons → <button>
+Textarea: <textarea>
 
-📌 Multimedia
+Buttons: <button>
 
-Audio → <audio>
+8️⃣ Multimedia
 
-Video → <video>
+Audio: <audio>
 
-Embedded content → <iframe>
+Video: <video>
+
+Embedded content: <iframe>
 
 🎨 CSS Topics
 
