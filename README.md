@@ -59,13 +59,13 @@ Advanced Selectors (child, sibling, attribute)
 
 # Javascript 
 
-#DATA TYPES AND VARIABLES 
+# DATA TYPES AND VARIABLES 
 
 Variables in JavaScript: var vs let
 
 JavaScript provides different ways to declare variables: var, let, and const. This project demonstrates the differences between var and let.
 
-# 1. var (Old way of declaring variables)
+📌 1. var (Old way of declaring variables)
 
 Scope → Function-scoped (accessible only inside the function where it is declared).
 
@@ -81,7 +81,7 @@ Multiple declarations can override values unexpectedly.
 
 Debugging becomes harder due to hoisting and scoping behavior.
 
-# 2. let (Introduced in ES6)
+📌 2. let (Introduced in ES6)
 
 Scope → Block-scoped (works only inside { } where it is defined).
 
@@ -91,7 +91,7 @@ Re-declaration → Not allowed in the same scope (avoids accidental overwrites).
 
 Better for debugging since values are predictable and scoped properly.
 
-# 3. Data Types Demonstrated
+📌 3. Data Types Demonstrated
 
 Numbers (e.g., 34)
 
@@ -99,16 +99,77 @@ Strings (e.g., "Paras Rawat")
 
 Variables can change type dynamically (JavaScript is loosely typed).
 
-# Naming Convention
+📌 Naming Convention
 
 camelCase → Preferred way to name variables in JavaScript.
 
 Example: sumOfArray, studentName, rollNumber.
 
+# Operators in JavaScript
 
-#conditional Statements
+Operators are special symbols that perform operations on variables and values.
+This project demonstrates different types of operators in JavaScript.
 
-# If–Else Statement
+📌 1. Arithmetic Operators
+
+Used for basic mathematical calculations.
+
++ → Addition
+
+- → Subtraction
+
+/ → Division
+
+* → Multiplication
+
+% → Modulus (remainder)
+
+📌 2. Unary Operators
+
+Work on a single operand.
+
+++ → Increment (increases value by 1)
+
+-- → Decrement (decreases value by 1)
+
+📌 3. Logical Operators
+
+Used to combine conditions.
+
+&& (AND) → Returns true if both conditions are true.
+
+|| (OR) → Returns true if at least one condition is true.
+
+! (NOT) → Reverses the result (true → false, false → true).
+
+📌 4. Comparison Operators
+
+Used to compare values.
+
+== → Equal to (checks value only).
+
+=== → Strictly equal (checks value and type).
+
+!= → Not equal.
+
+!== → Strictly not equal (value or type mismatch).
+
+> , < , >= , <= → Greater, less, greater/equal, less/equal.
+
+📌 5. Ternary Operator
+
+A shorthand way of writing if–else.
+
+Syntax:
+(condition) ? valueIfTrue : valueIfFalse
+
+Example use case:
+
+Checking voting eligibility based on age.
+
+# conditional Statements
+
+📌  If–Else Statement
 
 Used when you need to check one condition and perform actions accordingly.
 
@@ -120,7 +181,7 @@ Example shown in project:
 
 Check if a person is eligible to vote depending on age.
 
-#  2. If–Else Ladder
+📌  2. If–Else Ladder
 
 Used when there are multiple conditions to test one after another.
 
@@ -132,7 +193,7 @@ Example shown:
 
 Checking marks to assign grades (A, B, C, or Fail).
 
-# 3. Nested If–Else
+📌  3. Nested If–Else
 
 An if or else statement inside another if–else.
 
@@ -142,7 +203,7 @@ Example shown:
 
 Checking if someone is an adult, senior citizen, teenager, or child.
 
-# 4. Switch Statement
+📌 4. Switch Statement
 
 Used when you have multiple values of a single variable to compare.
 
@@ -155,11 +216,11 @@ Example shown:
 Checking numbers (1–6) and printing corresponding letters (A–F).
 loops 
 
-# Strings in JavaScript
+ # Strings in JavaScript
 
 A string in JavaScript is a sequence of characters enclosed in single quotes (' '), double quotes (" "), or backticks (` `). Strings are used to store and manipulate text.
 
-# String Creation
+📌 String Creation
 
 Using single or double quotes → "Paras Rawat".
 
@@ -167,7 +228,8 @@ Using backticks (Template Literals) → allows multiline strings and embedding v
 
 Using the String object → new String("Pankaj") (not commonly used).
 
-# String Operations
+📌 String Operations
+
 🔹 Concatenation
 
 Strings can be joined using the + operator.
@@ -188,11 +250,11 @@ Template literals (`${var1}${var2}`) allow easy string interpolation.
 
 .split(separator) → Splits a string into an array of words (using spaces, commas, etc.).
 
-Functions in JavaScript
+# Functions in JavaScript
 
 Functions are reusable blocks of code designed to perform a particular task. They help make programs more organized, readable, and efficient.
 
-# 1. Plain (Regular) Functions
+📌 1. Plain (Regular) Functions
 🔹 Function Definition and Calling
 
 Functions are defined using the function keyword.
@@ -221,7 +283,7 @@ Calculating the average of two numbers.
 
 Returning the sum of three numbers.
 
-# 2. Arrow Functions
+📌 2. Arrow Functions
 
 Introduced in ES6, arrow functions provide a shorter syntax.
 
@@ -233,7 +295,7 @@ Example concept shown:
 
 Using an arrow function inside another function to perform addition.
 
-# Key Takeaways
+📌 Key Takeaways
 
 Plain functions → Flexible, support hoisting (can be called before definition).
 
@@ -244,13 +306,13 @@ Return keyword → Allows functions to send a result back to where they were cal
 Functions improve reusability and modularity in code.
 
 
-Objects 
+ # Objects 
 - shallow copy
 - Static object
 - dynamic object
 - constructor function
 
-Arrays
+ # Arrays
 - initailsation of array
 - Accessing array
 - Methods of array
@@ -263,11 +325,11 @@ Arrays
 -filter function
 -Reduce function
   
-Hoisting in JavaScript
+# Hoisting in JavaScript
 
 Hoisting means that variable and function declarations are moved to the top of their scope (before execution). However, how this works depends on whether you use var, let, const, or functions.
 
-# Function Hoisting
+📌 Function Hoisting
 
 Function Declarations (using function myFunc(){}) are fully hoisted.
 → You can call them before they are defined.
@@ -275,7 +337,7 @@ Function Declarations (using function myFunc(){}) are fully hoisted.
 Function Expressions (using let myFunc = function(){} or const) are not hoisted.
 → Trying to call them before definition throws an error.
 
-# Variable Hoisting
+📌 Variable Hoisting
 
 var → Only the declaration is hoisted, not the value.
 → If accessed before initialization, it shows undefined.
@@ -284,13 +346,13 @@ let and const → Neither the declaration nor the value is accessible before ini
 → They remain in the Temporal Dead Zone (TDZ) until the line of initialization.
 → Accessing them early throws a ReferenceError.
 
-# Object Hoisting
+📌 Object Hoisting
 
 Objects declared with let or const are not hoisted.
 
 Accessing them before declaration results in an error.
 
-# Class Definition
+📌 Class Definition
 
 class persons defines a blueprint for creating person objects.
 
@@ -302,7 +364,7 @@ age → Public property (default 4)
 
 #ht → Private property (default "6ft") accessible only through getter/setter
 
-# Constructor
+📌 Constructor
 
 Accepts Branch, Rollnumber, and an optional list of Names.
 
@@ -349,7 +411,7 @@ random() → Generates a random number between 0 (inclusive) and 1 (exclusive).
 
 pow() → Returns the result of raising a number to a specified power.
 
- # Date Object
+ 📌 Date Object
 
 The Date object is used to work with dates and times.
 In this project, it is used to retrieve the current date and time when the program runs.
