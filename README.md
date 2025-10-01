@@ -5,79 +5,7 @@ It covers everything from basics to advanced topics along with hands-on projects
 
 📘 HTML Topics
 
-HTML Basics & Page Structure
 
-HTML Document: <!DOCTYPE html>, <html>, <head>, <body>
-
-Head Section: Metadata, title, links to CSS/JS
-
-Body Section: Visible content on the page
-
-📌 Text Formatting
-
-Bold → <b> / <strong>
-
-Italic → <i> / <em>
-
-Underline → <u>
-
-Highlight → <mark>
-
-Code → <code>
-
-Superscript → <sup>
-
-Subscript → <sub>
-
-📌 Tables
-
-<table> with <tr>, <td>, <th>
-
-Rowspan & Colspan for merged cells
-
-
-📌 Links & Images
-
-Links: <a href="url">text</a> (absolute & relative)
-
-Images: <img src="path" alt="description">
-
-📌 Lists
-
-Ordered Lists: <ol>
-
-Unordered Lists: <ul>
-
-Nested Lists: Lists inside lists <ul><li><ol>…
-
-
-📌 Forms
-
-Inputs: text, email, password
-
-Labels → <label>
-
-Checkboxes & radio buttons → <input type="checkbox/radio">
-
-Dropdown → <select> & <option>
-
-Textarea → <textarea>
-
-Buttons → <button>
-
-📌 Semantic HTML
-
-<header>, <footer>, <section>, <article>, <nav>
-
-Improves readability and SEO
-
-📌 Multimedia
-
-Audio → <audio>
-
-Video → <video>
-
-Embedded content → <iframe>
 
 🎨 CSS Topics
 
