@@ -5,87 +5,24 @@ It covers everything from basics to advanced topics along with hands-on projects
 
 📘 HTML Topics
 
-1️⃣ Page Structure
+   📌 Introduction to HTML & page structure
 
-<!DOCTYPE html> → Defines the HTML version
+   📌 Headings, Paragraphs, Line breaks 
+ 
+   📌Text formatting (bold, italic, underline, highlight, code, sup, sub)  
+ 
+   📌 Links & Images (absolute, relative, alt text) 
+ 
+   📌 Lists (ordered, unordered, nested) 
+ 
+   📌 Tables (rows, columns, rowspan, colspan) 
+ 
+   📌 Forms (inputs, labels, checkboxes, radio, dropdowns, textarea, buttons)
+ 
+   📌 Semantic HTML (header, footer, section, article, nav) 
+     
+   📌 Multimedia (audio, video, iframe)
 
-<html> → Root element
-
-<head> → Metadata, title, links to CSS/JS
-
-<body> → Visible page content
-
-Semantic elements: <header>, <footer>, <section>, <article>, <nav>
-
-2️⃣ Headings & Paragraphs
-
-Headings: <h1> … <h6>
-
-Paragraphs: <p>
-
-Line breaks: <br>
-
-3️⃣ Text Formatting
-
-Bold → <b> / <strong>
-
-Italic → <i> / <em>
-
-Underline → <u>
-
-Highlight → <mark>
-
-Code → <code>
-
-Superscript → <sup>
-
-Subscript → <sub>
-
-4️⃣ Links & Images
-
-Links: <a href="url">text</a>
-
-Absolute vs Relative URLs
-
-Images: <img src="path" alt="description">
-
-5️⃣ Lists
-
-Ordered List: <ol>
-
-Unordered List: <ul>
-
-Nested Lists: Lists inside lists
-
-6️⃣ Tables
-
-Table structure: <table>
-
-Rows & Columns: <tr> + <td> + <th>
-
-Merge cells: rowspan, colspan
-
-7️⃣ Forms
-
-Inputs: text, email, password
-
-Labels: <label>
-
-Checkboxes & Radio: <input type="checkbox/radio">
-
-Dropdown: <select> + <option>
-
-Textarea: <textarea>
-
-Buttons: <button>
-
-8️⃣ Multimedia
-
-Audio: <audio>
-
-Video: <video>
-
-Embedded content: <iframe>
 
 🎨 CSS Topics
 
