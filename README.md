@@ -106,7 +106,7 @@ age → Public property (default 4)
 
 #ht → Private property (default "6ft") accessible only through getter/setter
 
-Constructor
+# Constructor
 
 Accepts Branch, Rollnumber, and an optional list of Names.
 
@@ -126,3 +126,34 @@ walking() → Logs "I am walking".
 
 Sleeping() → Logs "I am sleeping".
 
+Built-in Objects in JavaScript
+
+This project demonstrates the usage of two important built-in objects in JavaScript: Math and Date.
+
+ # Math Object
+
+The Math object provides mathematical constants and methods.
+Key properties and functions demonstrated:
+
+PI → Represents the value of π (3.14159…).
+
+max() → Returns the largest number from a given set.
+
+min() → Returns the smallest number from a given set.
+
+round() → Rounds a number to the nearest integer.
+
+floor() → Always rounds a number down to the nearest integer.
+
+ceil() → Always rounds a number up to the nearest integer.
+
+abs() → Returns the absolute (positive) value of a number.
+
+random() → Generates a random number between 0 (inclusive) and 1 (exclusive).
+
+pow() → Returns the result of raising a number to a specified power.
+
+ # Date Object
+
+The Date object is used to work with dates and times.
+In this project, it is used to retrieve the current date and time when the program runs.
