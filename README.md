@@ -75,6 +75,19 @@ Objects
 - dynamic object
 - constructor function
 
+Arrays
+- initailsation of array
+- Accessing array
+- Methods of array
+   - push
+   -pop
+   -shift
+   -slice
+   -splice
+-map function
+-filter function
+-Reduce function
+  
 Hoisting 
 
 
