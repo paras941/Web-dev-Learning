@@ -69,5 +69,7 @@ strings
 
 Plain and Arrow function
 
+Objects and Arrays
+
 
 
