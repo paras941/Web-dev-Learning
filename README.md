@@ -13,14 +13,6 @@ Head Section: Metadata, title, links to CSS/JS
 
 Body Section: Visible content on the page
 
-📌 Text & Headings
-
-Headings: <h1> to <h6>
-
-Paragraphs: <p>
-
-Line breaks: <br>
-
 📌 Text Formatting
 
 Bold → <b> / <strong>
@@ -36,6 +28,13 @@ Code → <code>
 Superscript → <sup>
 
 Subscript → <sub>
+
+📌 Tables
+
+<table> with <tr>, <td>, <th>
+
+Rowspan & Colspan for merged cells
+
 
 📌 Links & Images
 
