@@ -69,7 +69,12 @@ strings
 
 Plain and Arrow function
 
-Objects and Arrays
+Objects 
+- shallow copy
+- Static object
+- dynamic object
+- constructor function
 
+Hoisting 
 
 
