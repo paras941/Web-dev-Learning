@@ -5,60 +5,177 @@ It covers everything from basics to advanced topics along with hands-on projects
 
 📘 HTML Topics
 
-Introduction to HTML & page structure
+HTML Basics & Page Structure
 
-Headings, Paragraphs, Line breaks
+HTML Document: <!DOCTYPE html>, <html>, <head>, <body>
 
-Text formatting (bold, italic, underline, highlight, code, sup, sub)
+Head Section: Metadata, title, links to CSS/JS
 
-Links & Images (absolute, relative, alt text)
+Body Section: Visible content on the page
 
-Lists (ordered, unordered, nested)
+📌 Text & Headings
 
-Tables (rows, columns, rowspan, colspan)
+Headings: <h1> to <h6>
 
-Forms (inputs, labels, checkboxes, radio, dropdowns, textarea, buttons)
+Paragraphs: <p>
 
-Semantic HTML (header, footer, section, article, nav)
+Line breaks: <br>
 
-Multimedia (audio, video, iframe)
+📌 Text Formatting
+
+Bold → <b> / <strong>
+
+Italic → <i> / <em>
+
+Underline → <u>
+
+Highlight → <mark>
+
+Code → <code>
+
+Superscript → <sup>
+
+Subscript → <sub>
+
+📌 Links & Images
+
+Links: <a href="url">text</a> (absolute & relative)
+
+Images: <img src="path" alt="description">
+
+📌 Lists
+
+Ordered Lists: <ol>
+
+Unordered Lists: <ul>
+
+Nested Lists: Lists inside lists <ul><li><ol>…
+
+📌 Tables
+
+<table> with <tr>, <td>, <th>
+
+Rowspan & Colspan for merged cells
+
+📌 Forms
+
+Inputs: text, email, password
+
+Labels → <label>
+
+Checkboxes & radio buttons → <input type="checkbox/radio">
+
+Dropdown → <select> & <option>
+
+Textarea → <textarea>
+
+Buttons → <button>
+
+📌 Semantic HTML
+
+<header>, <footer>, <section>, <article>, <nav>
+
+Improves readability and SEO
+
+📌 Multimedia
+
+Audio → <audio>
+
+Video → <video>
+
+Embedded content → <iframe>
 
 🎨 CSS Topics
 
-Introduction to CSS (inline, internal, external)
+CSS Basics
 
-Colors (names, HEX, RGB, HSL)
+Inline CSS: Added directly to an element via style attribute.
 
-Backgrounds (color, image, gradient)
+Internal CSS: Placed inside <style> tag within HTML <head>.
 
-Text styling (fonts, size, weight, alignment, spacing, Google Fonts)
+External CSS: Linked via an external .css file.
 
-Box Model (margin, padding, border, content, box-sizing)
+📌 Colors & Backgrounds
 
-Selectors (element, class, id, grouping, pseudo-classes, pseudo-elements)
+Colors: Named colors, HEX, RGB, HSL.
 
-Display & Positioning (block, inline, flex, grid, absolute, relative, sticky, fixed)
+Backgrounds:
 
-Flexbox (layout, alignment, wrapping)
+Color
 
-Grid (rows, columns, gap, templates, areas)
+Images
 
-Units (px, %, em, rem, vh, vw)
+Gradients (linear & radial)
 
-Variables (--var)
+📌 Text Styling
 
-Transitions & Animations (:hover, @keyframes)
+Fonts, size, weight, alignment, spacing.
 
-Shadows & Gradients (box-shadow, text-shadow, linear & radial gradient)
+Integration of Google Fonts.
 
-Media Queries (responsive design)
+📌 Box Model
 
-Styling Forms & Buttons
+Components: margin, border, padding, content.
 
-Advanced Selectors (child, sibling, attribute)
+box-sizing property for layout control.
+
+📌 Selectors
+
+Basic: element, class, id, grouping.
+
+Advanced: pseudo-classes (:hover, :first-child), pseudo-elements (::before, ::after).
+
+Advanced Selectors: child, sibling, attribute selectors.
+
+📌 Display & Positioning
+
+block, inline, inline-block
+
+flex, grid
+
+Positioning: static, relative, absolute, sticky, fixed.
+
+📌 Flexbox
+
+Layout, alignment, wrapping of items in a container.
+
+📌 Grid
+
+Rows, columns, gap, templates, and named areas for layout.
+
+📌 Units
+
+px, %, em, rem, vh, vw
+
+📌 CSS Variables
+
+Custom properties using --variable-name.
+
+Reusable values throughout stylesheets.
+
+📌 Transitions & Animations
+
+Smooth property changes: transition
+
+Keyframe animations: @keyframes
+
+Hover effects and interactive animations.
+
+📌 Shadows & Gradients
+
+Shadows: box-shadow, text-shadow
+
+Gradients: linear-gradient, radial-gradient
+
+📌 Responsive Design
+
+Media Queries to adapt layout and styles on different devices.
+
+📌 Forms & Buttons
+
+Styling inputs, selects, checkboxes, radios, and buttons for modern UI.
 
 # Javascript 
-
 
 📌 Variables & Data Types
 
