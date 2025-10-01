@@ -51,11 +51,6 @@ Unordered Lists: <ul>
 
 Nested Lists: Lists inside lists <ul><li><ol>…
 
-📌 Tables
-
-<table> with <tr>, <td>, <th>
-
-Rowspan & Colspan for merged cells
 
 📌 Forms
 
