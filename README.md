@@ -186,6 +186,17 @@ Math: PI, max, min, round, floor, ceil, abs, random, pow.
 
 Date: Retrieve current date and time.
 
+📌 Error Handling
+
+try → Put code that might cause an error.
+
+catch → Runs if an error happens; handles it safely.
+
+throw → Used to manually create/raise an error.
+
+finally → Always runs after try/catch, useful for cleanup.
+
+✅ Flow → try (risky code) → if error → catch (handle) → always → finally (cleanup).
 
 
 
