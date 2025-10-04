@@ -1,0 +1,31 @@
+ * Event Listeners
+
+ Browser Event
+ Events
+ responds
+ data stored 
+ stop 
+ life cycle
+
+ to check the event 
+
+moniterEvents(document)
+
+ EventTarget = The event target is the element that triggers an event.
+
+ Event Listener =  An event listener is a function that waits for a specific event to happen on an element.\
+ Synatax
+ <EventTarget>.addEventListerner((<event-type>,<function>)) */
+
+phases of the Events
+capturing phas
+At-target phase
+bubbling phase
+
+Event Ojects
+function changenText(event)
+{
+console.log(event)
+}
+
+event = eventObject

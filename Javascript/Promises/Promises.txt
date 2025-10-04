@@ -1,0 +1,7 @@
+Promises States
+fulfilled States/Resolve
+rejected  States
+
+Synatax= new Promise((Resolve,reject)=>{
+
+});
