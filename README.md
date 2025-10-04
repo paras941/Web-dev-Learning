@@ -198,5 +198,34 @@ finally → Always runs after try/catch, useful for cleanup.
 
 ✅ Flow → try (risky code) → if error → catch (handle) → always → finally (cleanup).
 
+  
+📌 Event Listeners
+
+Event listeners wait for user actions (like click, hover, keypress).
+
+When the event happens, a function (callback) runs automatically.
+
+Added using addEventListener() method.
+
+📘 Syntax:
+
+element.addEventListener("eventType", functionName);
+
+🧠 Example:
+
+button.addEventListener("click", () => {
+  alert("Button clicked!");
+});
+
+📌  Reflow and Repaint (Repaint = Repair)
+
+Reflow:
+Happens when the layout or size of elements changes — like resizing a div, changing font size, or adding/removing elements.
+- Browser recalculates positions and dimensions of elements.
+
+Repaint (Repair):
+Happens when visual styles (like color, background, or visibility) change but layout stays the same.
+- Browser just updates the pixels on screen.
+
 
 
