@@ -210,8 +210,8 @@ Added using addEventListener() method.
 📘 Syntax:
 
 element.addEventListener("eventType", functionName);
-
-🧠 Example:
+ 
+* Example:
 
 button.addEventListener("click", () => {
   alert("Button clicked!");
@@ -226,6 +226,31 @@ Happens when the layout or size of elements changes — like resizing a div, cha
 Repaint (Repair):
 Happens when visual styles (like color, background, or visibility) change but layout stays the same.
 - Browser just updates the pixels on screen.
+  
+📌 Promises
 
+Used to handle asynchronous operations easily.
 
+Represents a value that will be available in the future.
 
+Has three states: pending, fulfilled, and rejected.
+
+Helps avoid callback hell and makes async code more manageable.
+
+📌 Async & Await
+
+Modern way to handle Promises with a cleaner, synchronous-like syntax.
+
+async marks a function as asynchronous.
+
+await pauses execution until the Promise is resolved.
+
+Makes asynchronous code easier to read and debug.
+
+📌 Closures
+
+A closure is when a function remembers variables from its outer scope even after that scope has finished running.
+
+It allows data privacy and persistent state inside functions.
+
+Commonly used in encapsulation and function factories.
