@@ -3,9 +3,9 @@
 This repository contains resources, notes, and practice projects to learn HTML & CSS.
 It covers everything from basics to advanced topics along with hands-on projects.
 
-📘 HTML Topics
+📘 HTML Topics				                 
 
-   📌 Introduction to HTML & page structure
+   📌 Introduction to HTML & page structure 
 
    📌 Headings, Paragraphs, Line breaks 
  
@@ -207,7 +207,7 @@ When the event happens, a function (callback) runs automatically.
 
 Added using addEventListener() method.
 
-📘 Syntax:
+* Syntax:
 
 element.addEventListener("eventType", functionName);
  
